@@ -1,0 +1,70 @@
+.paintingsPage {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    gap: 80px 0;
+}
+ 
+.paintingsPage .paintingContainer {
+    width: 450px;
+    min-height: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px 2px black;
+}
+
+.paintingsPage .paintingContainer h3 {
+    font-size: 1.4rem;
+    flex-basis: 100%;
+    height: 20%;
+    text-align: center;
+    padding-top: 3.5%;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.3);
+}
+
+.paintingsPage .paintingContainer .innerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    padding: 20px;
+}
+
+.paintingsPage .paintingContainer img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.paintingsPage .paintingContainer .pBtnContainer p {
+    max-height: 150px;
+    margin-bottom: 45px;
+    text-align: center;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: auto;
+}
+
+.paintingsPage .paintingContainer .pBtnContainer div {
+    display: flex;
+    justify-content: center;
+}
+
+.paintingsPage .paintingContainer .pBtnContainer .detailsBtn {
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s ease all;
+}
+
+.paintingsPage .paintingContainer .pBtnContainer .detailsBtn:hover {
+    transform: scale(1.1);
+}
