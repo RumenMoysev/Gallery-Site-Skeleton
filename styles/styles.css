@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import 'header.css';
+@import 'home.css';
+@import 'forms.css';
+@import 'paintings.css';
+
+html {
+    font-family: Nunito, arial;
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+button {
+    font: inherit
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url('../images/20240305_170240.jpg'), no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 0 10%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
