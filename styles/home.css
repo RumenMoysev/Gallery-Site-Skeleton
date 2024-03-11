@@ -1,0 +1,74 @@
+main .row {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 0 0 10%;
+}
+
+main .col {
+    flex-basis: 50%;
+}
+
+main .col:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 7%;
+}
+
+main .col h1 {
+    font-size: 5rem;
+}
+
+main .col p {
+    line-height: 1.5rem;
+}
+
+main .col button {
+    width: 10rem;
+    color: black;
+    padding: 0.7rem 0;
+    border: none;
+    border-radius: 1.2rem;
+    outline: none;
+    margin-top: 2rem;
+    transition: 0.3s ease;
+}
+
+main .col button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+main .col .card {
+    width: 260px;
+    height: 320px;
+    display: inline-block;
+    border-radius: 0.7rem;
+    padding: 0.9rem 1.3rem;
+    cursor: pointer;    
+    margin: 0.6rem 0.8rem;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+main .col .card:hover {
+    transform: translateY(-10px);
+}
+
+main .col .card h5 {
+    text-shadow: 0 0 5px black;
+}
+
+main .col .card p {
+    text-shadow: 0 0 5px black;
+}
+
+@media (max-width: 1380px) {
+    main .row {
+        padding-left: 3%;
+    }
+}
