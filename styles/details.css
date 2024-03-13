@@ -1,0 +1,73 @@
+.detailsContainer {
+    width: 1100px;
+    min-height: 600px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px 2px black;
+}
+
+.detailsContainer .headingContainer {
+    height: 100px;
+    text-align: center;
+    margin-top: 30px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.detailsContainer .headingContainer div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.detailsContainer .infoContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 50px;
+}
+
+.detailsContainer .infoContainer div p {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.detailsContainer .infoContainer div .detailsBtnContainer {
+    margin-top: 2.2rem;
+    display: block;
+    text-align: center;
+}
+
+.detailsContainer .infoContainer div a {
+    display: inline-block;
+    margin-left: 50px;
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    padding: 7px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s ease all;
+}
+
+.detailsContainer .infoContainer div a:hover {
+    transform: scale(1.12);
+}
+
+.detailsContainer .infoContainer img {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+}
+
+.detailsContainer .infoContainer .imgContainer {
+    flex-basis: 40%;
+}
+
+.detailsContainer .infoContainer .likeCount {
+    text-align: end;
+    margin-right: 40px;
+    margin-top: 20px;
+}

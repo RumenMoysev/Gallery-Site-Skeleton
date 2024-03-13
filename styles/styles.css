@@ -3,6 +3,7 @@
 @import 'home.css';
 @import 'forms.css';
 @import 'paintings.css';
+@import 'details.css';
 
 html {
     font-family: Nunito, arial;
