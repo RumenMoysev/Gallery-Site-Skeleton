@@ -1,0 +1,91 @@
+.form {
+    width: 420px;
+    background: transparent;
+    border: solid 2px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px 2px black;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 30px 40px;
+}
+
+.form h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.form .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 40px 0;
+}
+
+.form .input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 0.9rem;
+    padding: 20px 45px 20px 20px;
+}
+
+.form .input-box input::placeholder {
+    color: #fff;
+}
+
+.form .input-box span {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 300ms ease;
+}
+
+.form .input-box input:valid + span, .form .input-box input:focus + span {
+    top: -20px;
+}
+
+.form .input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+}
+
+.form .formBtn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: #333;
+    font-weight: 700;
+    transition: all ease 0.3s;
+}
+
+.form .formBtn:hover {
+    transform: scale(1.05);
+}
+
+.form .register-link {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.form .register-link p a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form .register-link p a:hover {
+    text-decoration: underline;
+}
